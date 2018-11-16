@@ -298,7 +298,17 @@ img{
     width: 100%;
     text-align: center;
 
-}
+  }
+.large-hero__text-title{
+      font-weight: 300;
+      color: #2F5572;
+      font-size: 4.8rem;
+  }
+.large-hero__text-subtitle{
+    font-weight: 300;
+    color: #2F5572;
+    font-size: 2.9rem;
+  }
 
 
 
