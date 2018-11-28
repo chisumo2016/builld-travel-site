@@ -11,33 +11,39 @@
          text-align: center;
      }
 
-     &--orange{
-        color: $mainOrange;
-      }
+ &--orange{
+    color: $mainOrange;
+  }
 
-      &--small{
-           font-size: 1.2rem;
+  &--small{
+       font-size: 1.2rem;
 
-           @mixin atSmall{
-               font-size: 1.875rem;
-           }
+       @mixin atSmall{
+           font-size: 1.875rem;
        }
+   }
 
-       &--narrow{
-            max-width: 500px;
-            margin-left:auto;
-            margin-right:auto;
-        }
+   &--narrow{
+        max-width: 500px;
+        margin-left:auto;
+        margin-right:auto;
+    }
 
-        &--light{
-            font-weight:  100;
-         }
+    &--light{
+        font-weight:  100;
+     }
 
-        &--b-margin-small{
-             margin-bottom: .5em;
-         }
+    &--b-margin-small{
+         margin-bottom: .5em;
+     }
 
-         &--b-margin-large{
-              margin-bottom: 1.6em;
-          }
+     &--b-margin-large{
+          margin-bottom: 1.6em;
+      }
+    &--no-t-margin{
+
+         margin-top:0;
+
+     }
+
 }
